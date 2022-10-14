@@ -1,0 +1,145 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="548.0000000000001" scrolly="250.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="AiW)*-QxR1w;z9Z).=wj" x="-570" y="-250">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="636.0000305175781" scrolly="285.1666717529297" scale="0.9">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="7jCH:#EqD]+a%GDhJjFj" type="">door</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="Y9Qu5|Z]@QTuTaT}HvWn" x="-590" y="-230">
+      <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+      <value name="VALUE">
+        <block type="text" id="34s@lI?+@gLt:CNS9QO.">
+          <field name="TEXT">close</field>
+        </block>
+      </value>
+      <next>
+        <block type="whenHovered" id="QOt]olh*|+;xFG=HKPef">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="nxKZLR3rwb5mr)Y;?7]P">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="JOYh^M!U[L9l0zG+1ST#">
+              <field name="FIELDNAME">pintu</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="pg1a[QN!7dZE1d1J2E9^">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="3_ig.wO!~zAZA|~7-#IH">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="q)oGCBGuA6_oPOMhkiG)">
+                  <field name="FIELDNAME">pintu</field>
+                </block>
+              </value>
+              <next>
+                <block type="addAnnotation" id="G(~zf:Z{]L#`CX5Eu26}">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text" id="-7C|JfyTL2Bl^Dk^ST`s">
+                      <field name="TEXT">1</field>
+                    </shadow>
+                    <block type="text" id="CRshV_nH[vF{+C`Kz:5~">
+                      <field name="TEXT">Open</field>
+                    </block>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="(k0vCiAt[1Qm)@bHG|vN">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="Z(@/9``U*(r}bPz2;x!(">
+                      <field name="FIELDNAME">pintu</field>
+                    </block>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="52XAFv-fg7deKC]^JBFR">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="@kp]fvoPt?ncBp[-uo+0">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="*q~8?b7j{zyX=@HVpM+4">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="BRVhP[2AAe5xmbK@=`*_">
+                  <field name="FIELDNAME">pintu</field>
+                </block>
+              </value>
+              <next>
+                <block type="removeAnnotation" id="~y0^gc0Jx,AV|x!CA`pe">
+                  <value name="TARGET">
+                    <shadow type="objectList" id="vCy:@}ux6#N.~eW$dmJy">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="PDJ;smd3Tm=T!D!eYr~?">
+                      <field name="FIELDNAME">pintu</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="^S}[ujIIKt3TiOri.V}M">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="}j+empJ.SKzt+7,{jUA}">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="HYaIB_YWz91w!T.zlI).">
+                  <field name="FIELDNAME">pintu</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="controls_if" id="@n}RY(4`dnL5?8HkXv:$">
+                  <value name="IF0">
+                    <block type="logic_compare" id="R]KyzMq-MC$Jce^fB9tM">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="~j=4V=a0BnfH0@y5Cm7P">
+                          <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="S.og^gi,8wfKOmT~`Ey(">
+                          <field name="TEXT">close</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="750" viewport-y="28" viewport-w="512" viewport-h="288.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

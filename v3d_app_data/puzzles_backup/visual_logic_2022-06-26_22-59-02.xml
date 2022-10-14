@@ -1,0 +1,1092 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="547.9999999999993" scrolly="250.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="AiW)*-QxR1w;z9Z).=wj" x="-570" y="-250">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="189.32356618864242" scrolly="124.13138899323894" scale="0.3739685893807341">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="7jCH:#EqD]+a%GDhJjFj" type="">door</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="Y9Qu5|Z]@QTuTaT}HvWn" x="-590" y="-230">
+      <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+      <value name="VALUE">
+        <block type="text" id="34s@lI?+@gLt:CNS9QO.">
+          <field name="TEXT">close</field>
+        </block>
+      </value>
+      <next>
+        <block type="whenHovered" id="QOt]olh*|+;xFG=HKPef">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="nxKZLR3rwb5mr)Y;?7]P">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="JOYh^M!U[L9l0zG+1ST#">
+              <field name="FIELDNAME">pintu</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="pg1a[QN!7dZE1d1J2E9^">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="3_ig.wO!~zAZA|~7-#IH">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="q)oGCBGuA6_oPOMhkiG)">
+                  <field name="FIELDNAME">pintu</field>
+                </block>
+              </value>
+              <next>
+                <block type="addAnnotation" id="G(~zf:Z{]L#`CX5Eu26}">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text" id="-7C|JfyTL2Bl^Dk^ST`s">
+                      <field name="TEXT">1</field>
+                    </shadow>
+                    <block type="text" id="CRshV_nH[vF{+C`Kz:5~">
+                      <field name="TEXT">Open</field>
+                    </block>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="(k0vCiAt[1Qm)@bHG|vN">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="Z(@/9``U*(r}bPz2;x!(">
+                      <field name="FIELDNAME">pintu</field>
+                    </block>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="52XAFv-fg7deKC]^JBFR">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="@kp]fvoPt?ncBp[-uo+0">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="*q~8?b7j{zyX=@HVpM+4">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="BRVhP[2AAe5xmbK@=`*_">
+                  <field name="FIELDNAME">pintu</field>
+                </block>
+              </value>
+              <next>
+                <block type="removeAnnotation" id="~y0^gc0Jx,AV|x!CA`pe">
+                  <value name="TARGET">
+                    <shadow type="objectList" id="vCy:@}ux6#N.~eW$dmJy">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="PDJ;smd3Tm=T!D!eYr~?">
+                      <field name="FIELDNAME">pintu</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="^S}[ujIIKt3TiOri.V}M">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="}j+empJ.SKzt+7,{jUA}">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="HYaIB_YWz91w!T.zlI).">
+                  <field name="FIELDNAME">pintu</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="controls_if" id="@n}RY(4`dnL5?8HkXv:$">
+                  <mutation elseif="1"/>
+                  <value name="IF0">
+                    <block type="logic_compare" id="R]KyzMq-MC$Jce^fB9tM">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="~j=4V=a0BnfH0@y5Cm7P">
+                          <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="S.og^gi,8wfKOmT~`Ey(">
+                          <field name="TEXT">close</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="playAnimationAdv" id="@#4?;x#P-g9tfbmX:%nO">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="J{.go%S-*MZiV,@LVN-P">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="animationList" id="=NrLyIk7OK(]m=Hi,l~d">
+                          <field name="FIELDNAME">pintu</field>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="H{f{o|qQZYjo+}Yn4d;K">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="8.5EGV%7;2+4$~!3CM],">
+                              <field name="FIELDNAME">masuk 1</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="vROq~}=l;gO{.tkn35+|">
+                              <field name="FIELDNAME">masuk 2 p</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="b5nBitAAUW%+1*ObG)$Q">
+                              <field name="NUM">3</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="tweenCameraExt" id="rX)g}d;rD/!H94:{iAm8">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                              <field name="MOVEMENT_TYPE">LINEAR</field>
+                              <value name="POSITION">
+                                <block type="objectList" id="H8CYa1SNR^!+Iz6u@cBV">
+                                  <field name="FIELDNAME">masuk 2 p</field>
+                                </block>
+                              </value>
+                              <value name="LOOKAT">
+                                <block type="objectList" id="HrPC#-RgDH]b]qzG$[j8">
+                                  <field name="FIELDNAME">masuk 2 d</field>
+                                </block>
+                              </value>
+                              <value name="DURATION">
+                                <shadow type="math_number" id="H!PR(bBht1hnt9Z/DM~i">
+                                  <field name="NUM">3</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="tweenCameraExt" id="fqzQSU5PZC:U:orZG`@~">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                                  <field name="MOVEMENT_TYPE">LINEAR</field>
+                                  <value name="POSITION">
+                                    <block type="objectList" id="C5ov*X[vu~z4DLv287X^">
+                                      <field name="FIELDNAME">masuk 3 p</field>
+                                    </block>
+                                  </value>
+                                  <value name="LOOKAT">
+                                    <block type="objectList" id="x?UL~BuHRe7boWVjO}uo">
+                                      <field name="FIELDNAME">masuk 3 d</field>
+                                    </block>
+                                  </value>
+                                  <value name="DURATION">
+                                    <shadow type="math_number" id="1C[BHK!A$R5!A8M.BOM}">
+                                      <field name="NUM">3</field>
+                                    </shadow>
+                                  </value>
+                                  <statement name="DO">
+                                    <block type="variables_set" id="Slp]meV/798Jk6(]P{5Z">
+                                      <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+                                      <value name="VALUE">
+                                        <block type="text" id=":s8CRJve1z|a*$D0SG{|">
+                                          <field name="TEXT">open</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </statement>
+                                </block>
+                              </statement>
+                            </block>
+                          </statement>
+                        </block>
+                      </statement>
+                    </block>
+                  </statement>
+                  <value name="IF1">
+                    <block type="logic_compare" id="|bw%Ci-|0wOW;ey`T.pr">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="PpNi0eZDbF^VJiJ}oKLm">
+                          <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="bEL7`uJF6t`AGtmoE@tD">
+                          <field name="TEXT">open</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO1">
+                    <block type="playAnimationAdv" id="=(g[|qX})UpXK`)F[LzK">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">TRUE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="animationList" id="iw9nj$3a2AJ(rX_5qali">
+                          <field name="FIELDNAME">pintu</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="variables_set" id="L!^G%34`I|Qw2IB9:[cQ">
+                          <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+                          <value name="VALUE">
+                            <block type="text" id=":_/eSKOQuPL!RjkFUZMW">
+                              <field name="TEXT">close</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="2oIq8Erb=~1o(?dtvept" x="-590" y="430">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="Q?k?8ky]AM`P)hfhg)L;">
+          <field name="FIELDNAME">slide.001</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="8`P0=#T!qsp8B.#w8u|t">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id=",5,;1ib;qR,DXmVqbEY@">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="~BYaD8+y*O*(wVaa$TsJ">
+              <field name="FIELDNAME">slide.001</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="3}8^=H,q(If_A0qt[1dP">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="a`WYu`R-3X/H0(Q:ea%c">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="DcrK(5:*w#^2ARwWp4e{">
+              <field name="FIELDNAME">slide.001</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenHovered" id="GYR48_Qgf(]W@IwY8TjF">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="I|l0nMH;}UEsG8:oDi?R">
+              <field name="FIELDNAME">slide.002</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="p,L0nSw7Uq4cv`7~lTV-">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="87s2goE6$}gL2N.hOLu=">
+                  <field name="FIELDNAME">slide.002</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="Zac:Y+5q`B7)%CNBq3fS">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="OdI5p;]Xk/KO?D)$no*p">
+                  <field name="FIELDNAME">slide.002</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenHovered" id="?Iow6ftF|zj/ot8iGHMm">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <value name="VALUE">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="bWZp@(3tTr=m$,!uYxLI">
+                  <field name="FIELDNAME">slide.003</field>
+                </block>
+              </value>
+              <statement name="DO_OVER">
+                <block type="outline" id="!{mia_A)rPb|LO=U;HZD">
+                  <field name="DO_WHAT">ENABLE</field>
+                  <value name="TARGET">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="K_sXsNG59(ZMlcT8f0ZY">
+                      <field name="FIELDNAME">slide.003</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <statement name="DO_OUT">
+                <block type="outline" id="0u$6z;E%g5%o:fuWy{$Q">
+                  <field name="DO_WHAT">DISABLE</field>
+                  <value name="TARGET">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="},_xOx;enDV3uTr4/Z;O">
+                      <field name="FIELDNAME">slide.003</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="whenHovered" id="[;GAG?]O0iBO4KpC9ID]">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="z_G[GXt9c8rNb7$WWQY6">
+                      <field name="FIELDNAME">slide.004</field>
+                    </block>
+                  </value>
+                  <statement name="DO_OVER">
+                    <block type="outline" id="/hJ$,x3#X%yw{_,(COy#">
+                      <field name="DO_WHAT">ENABLE</field>
+                      <value name="TARGET">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id=",o/lg1^{BGxSJ0{9T@RU">
+                          <field name="FIELDNAME">slide.004</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <statement name="DO_OUT">
+                    <block type="outline" id="#DUb#4Aq^W[hIh,$hOML">
+                      <field name="DO_WHAT">DISABLE</field>
+                      <value name="TARGET">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="(76b7|g1t0-k.k9cl(gh">
+                          <field name="FIELDNAME">slide.004</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="whenClicked" id="^Iag,l=rm[xkC*`GUYe`">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <field name="DOUBLE_CLICK">FALSE</field>
+                      <field name="LEFT_BUTTON">TRUE</field>
+                      <field name="MIDDLE_BUTTON">TRUE</field>
+                      <field name="RIGHT_BUTTON">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="2,YB{;pqlY)*wGEYJPP{">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="lGXLY^f(S6XlK,6@R8W4">
+                          <field name="FIELDNAME">slide.001</field>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="replaceTexture" id="J01|REzV`5v`7n@),1]|">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+                          <field name="OLD_TEX_NAME">1.jpg</field>
+                          <value name="MATERIAL">
+                            <shadow type="materialList" id="~Ct`^[RxT7Li@AU/PYj#">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="materialList" id="1q!TRXL?p=Dtt3QPO0Nf">
+                              <field name="FIELDNAME">Layar TV</field>
+                            </block>
+                          </value>
+                          <value name="NEW_TEX_URL">
+                            <shadow type="text" id="C3jHDMe[HAfz]x$3.Q0d">
+                              <field name="TEXT">./newTexture.png</field>
+                            </shadow>
+                            <block type="text" id="o3aq9_(WlHj7aVCw#l@p">
+                              <field name="TEXT">./1.jpg</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="whenClicked" id="8G6elMx)]+Z[Q!O5Jfg0">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                          <field name="X_RAY">FALSE</field>
+                          <field name="DOUBLE_CLICK">FALSE</field>
+                          <field name="LEFT_BUTTON">TRUE</field>
+                          <field name="MIDDLE_BUTTON">TRUE</field>
+                          <field name="RIGHT_BUTTON">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="gC0-xzy5v/@zLVQ,h~;d">
+                              <field name="FIELDNAME">slide.002</field>
+                            </block>
+                          </value>
+                          <statement name="DO">
+                            <block type="replaceTexture" id="lZW-{+pJ%Hf~ojK2{.id">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+                              <field name="OLD_TEX_NAME">1.jpg</field>
+                              <value name="MATERIAL">
+                                <shadow type="materialList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="materialList" id="p}JJFiI6|4Zr6(YTNX#D">
+                                  <field name="FIELDNAME">Layar TV</field>
+                                </block>
+                              </value>
+                              <value name="NEW_TEX_URL">
+                                <shadow type="text">
+                                  <field name="TEXT">./newTexture.png</field>
+                                </shadow>
+                                <block type="text" id="[;KCdipQCW{=?^IJ80#P">
+                                  <field name="TEXT">./2.jpg</field>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="whenClicked" id="{T1,zj@1fZ^V-n5*ZZ6]">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                              <field name="X_RAY">FALSE</field>
+                              <field name="DOUBLE_CLICK">FALSE</field>
+                              <field name="LEFT_BUTTON">TRUE</field>
+                              <field name="MIDDLE_BUTTON">TRUE</field>
+                              <field name="RIGHT_BUTTON">TRUE</field>
+                              <value name="VALUE">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="objectList" id="nzL4xL;ARnjR@e`}v)ig">
+                                  <field name="FIELDNAME">slide.003</field>
+                                </block>
+                              </value>
+                              <statement name="DO">
+                                <block type="replaceTexture" id="SE*Ta1T7)UJ=)A)-tf|m">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+                                  <field name="OLD_TEX_NAME">1.jpg</field>
+                                  <value name="MATERIAL">
+                                    <shadow type="materialList">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="materialList" id="R_mdpC!jLd0r^GAPB(/X">
+                                      <field name="FIELDNAME">Layar TV</field>
+                                    </block>
+                                  </value>
+                                  <value name="NEW_TEX_URL">
+                                    <shadow type="text">
+                                      <field name="TEXT">./newTexture.png</field>
+                                    </shadow>
+                                    <block type="text" id="2w(*X/+X4s,{*l?Vd-EI">
+                                      <field name="TEXT">./3.jpg</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="whenClicked" id="+9BczvZ)8OtJF{_+aoxJ">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                  <field name="X_RAY">FALSE</field>
+                                  <field name="DOUBLE_CLICK">FALSE</field>
+                                  <field name="LEFT_BUTTON">TRUE</field>
+                                  <field name="MIDDLE_BUTTON">TRUE</field>
+                                  <field name="RIGHT_BUTTON">TRUE</field>
+                                  <value name="VALUE">
+                                    <shadow type="objectList">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="objectList" id="iam}Q5EW#k=jdwR0]P4]">
+                                      <field name="FIELDNAME">slide.004</field>
+                                    </block>
+                                  </value>
+                                  <statement name="DO">
+                                    <block type="replaceTexture" id="qia-oNYG6j[OOJn5m}Aq">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+                                      <field name="OLD_TEX_NAME">1.jpg</field>
+                                      <value name="MATERIAL">
+                                        <shadow type="materialList">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="materialList" id="cWgrgDNP/}/JNsQR*@^+">
+                                          <field name="FIELDNAME">Layar TV</field>
+                                        </block>
+                                      </value>
+                                      <value name="NEW_TEX_URL">
+                                        <shadow type="text">
+                                          <field name="TEXT">./newTexture.png</field>
+                                        </shadow>
+                                        <block type="text" id="Mds4^J6tM^U:^bwP%uN~">
+                                          <field name="TEXT">./4.jpg</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </statement>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id=".SGq]J*hwkFl?4p=HmN_" x="70" y="410">
+      <value name="VALUE">
+        <shadow type="objectList" id="y=Rl~s{gVZM[sub~5`Zp">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="lists_create_with" id="eIveK3dpBE~`/CGerzoU">
+          <mutation items="4"/>
+          <value name="ADD0">
+            <block type="objectList" id="5[o%vzX}Kf6iL_Ee#A9|">
+              <field name="FIELDNAME">slide.005</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="objectList" id="7T~^;PE,W^8J@8Y1cVtE">
+              <field name="FIELDNAME">slide.006</field>
+            </block>
+          </value>
+          <value name="ADD2">
+            <block type="objectList" id="37q-;VVnFXN*e6(?YeSH">
+              <field name="FIELDNAME">slide.007</field>
+            </block>
+          </value>
+          <value name="ADD3">
+            <block type="objectList" id="~k+Uv`,{NUCHx4adRJxy">
+              <field name="FIELDNAME">slide.008</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <next>
+        <block type="whenHovered" id="$kN/N]JmNdycZIT@.s_L">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="5%+Ksgi*5KlQCWAdN%}e">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="agHd~!cZfN63x[fz*?sf">
+              <field name="FIELDNAME">slide.005</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="lC5J0Kxj=A{jdGCei@dk">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="F$gW|PluoYxhnUPpn-X4">
+                  <field name="FIELDNAME">slide.005</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="Om$3*ZG=|cCoT/wnWS~n">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="OWRd+~Nl[]NRB4a|mxdQ">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="pHT;@bB{vPA=iPYZQ8,#">
+                  <field name="FIELDNAME">slide.005</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenHovered" id="m([@{pCd)4Uok.r)uCWp">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <value name="VALUE">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="ol6!OB=*:t~5#ok-K_mi">
+                  <field name="FIELDNAME">slide.006</field>
+                </block>
+              </value>
+              <statement name="DO_OVER">
+                <block type="outline" id="o,.loHn(?W|*^E~|]ms,">
+                  <field name="DO_WHAT">ENABLE</field>
+                  <value name="TARGET">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="=,=5jr?;8[/3ZYotOMCe">
+                      <field name="FIELDNAME">slide.006</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <statement name="DO_OUT">
+                <block type="outline" id="6qw@h%tf}UzUDontK+xY">
+                  <field name="DO_WHAT">DISABLE</field>
+                  <value name="TARGET">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="/@AtUBCyw5U,Sz%r!Wmo">
+                      <field name="FIELDNAME">slide.006</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="whenHovered" id="BDDHMoFrQFfg,YL,gk`o">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="Vz:M~%AV_EV(QmAZ/xq-">
+                      <field name="FIELDNAME">slide.007</field>
+                    </block>
+                  </value>
+                  <statement name="DO_OVER">
+                    <block type="outline" id="WM%^$x[a0/)Xqn.2v9e:">
+                      <field name="DO_WHAT">ENABLE</field>
+                      <value name="TARGET">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="q.,.1#NzQy%PiCfjk0NH">
+                          <field name="FIELDNAME">slide.007</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <statement name="DO_OUT">
+                    <block type="outline" id="`JFp-DR!=ud{vON(+,yK">
+                      <field name="DO_WHAT">DISABLE</field>
+                      <value name="TARGET">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="Jt/7Y-o5?A2%xLvWf[+e">
+                          <field name="FIELDNAME">slide.007</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="whenHovered" id="VkwGq^j@DM.n*4}|^[_}">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="nZm~oP,?`~{lzQ8#H{V0">
+                          <field name="FIELDNAME">slide.008</field>
+                        </block>
+                      </value>
+                      <statement name="DO_OVER">
+                        <block type="outline" id="/3rvDTOZN*F`|:tl0@oj">
+                          <field name="DO_WHAT">ENABLE</field>
+                          <value name="TARGET">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="i;iL%!|pN[{B)xt0ubD_">
+                              <field name="FIELDNAME">slide.008</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                      <statement name="DO_OUT">
+                        <block type="outline" id="mVRGfaSmO+j-,cX9)l8m">
+                          <field name="DO_WHAT">DISABLE</field>
+                          <value name="TARGET">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="/4yte]^T?SRs4$(e?c(u">
+                              <field name="FIELDNAME">slide.008</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="whenClicked" id="RDE#2$_a/3Z7.rqCmoy-">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                          <field name="X_RAY">FALSE</field>
+                          <field name="DOUBLE_CLICK">FALSE</field>
+                          <field name="LEFT_BUTTON">TRUE</field>
+                          <field name="MIDDLE_BUTTON">TRUE</field>
+                          <field name="RIGHT_BUTTON">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="/(~@(=uPIU^w#0[nSHiC">
+                              <field name="FIELDNAME">slide.005</field>
+                            </block>
+                          </value>
+                          <statement name="DO">
+                            <block type="replaceTexture" id="U~=M=LVY8OOp;(ja9#,=">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+                              <field name="OLD_TEX_NAME">1.jpg</field>
+                              <value name="MATERIAL">
+                                <shadow type="materialList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="materialList" id="h1O,V/S|12ys(%yXV.oK">
+                                  <field name="FIELDNAME">Layar TV</field>
+                                </block>
+                              </value>
+                              <value name="NEW_TEX_URL">
+                                <shadow type="text">
+                                  <field name="TEXT">./newTexture.png</field>
+                                </shadow>
+                                <block type="text" id="2w`r@cJ3#e#E/f.gCKxF">
+                                  <field name="TEXT">./5.jpg</field>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="whenClicked" id="RwB}ht.J;wa|@ub8tJ_h">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                              <field name="X_RAY">FALSE</field>
+                              <field name="DOUBLE_CLICK">FALSE</field>
+                              <field name="LEFT_BUTTON">TRUE</field>
+                              <field name="MIDDLE_BUTTON">TRUE</field>
+                              <field name="RIGHT_BUTTON">TRUE</field>
+                              <value name="VALUE">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="objectList" id="v[NM[|,Z|8S]R.=:AnSw">
+                                  <field name="FIELDNAME">slide.006</field>
+                                </block>
+                              </value>
+                              <statement name="DO">
+                                <block type="replaceTexture" id="]J}u.NP8?$55xLLu+Lg1">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+                                  <field name="OLD_TEX_NAME">1.jpg</field>
+                                  <value name="MATERIAL">
+                                    <shadow type="materialList">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="materialList" id="XS0;+DtDC#PEq78T9e,@">
+                                      <field name="FIELDNAME">Layar TV</field>
+                                    </block>
+                                  </value>
+                                  <value name="NEW_TEX_URL">
+                                    <shadow type="text">
+                                      <field name="TEXT">./newTexture.png</field>
+                                    </shadow>
+                                    <block type="text" id="`=h!ykBmn,]cBzyfwSpr">
+                                      <field name="TEXT">./6.jpg</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="whenClicked" id="hSYD_4|V5WSjyxHbWaO/">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                  <field name="X_RAY">FALSE</field>
+                                  <field name="DOUBLE_CLICK">FALSE</field>
+                                  <field name="LEFT_BUTTON">TRUE</field>
+                                  <field name="MIDDLE_BUTTON">TRUE</field>
+                                  <field name="RIGHT_BUTTON">TRUE</field>
+                                  <value name="VALUE">
+                                    <shadow type="objectList">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="objectList" id=")mbf]yxDk=ppqGRycUSg">
+                                      <field name="FIELDNAME">slide.007</field>
+                                    </block>
+                                  </value>
+                                  <statement name="DO">
+                                    <block type="replaceTexture" id=".{$2/gLAl+un6Qb_-I6+">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+                                      <field name="OLD_TEX_NAME">1.jpg</field>
+                                      <value name="MATERIAL">
+                                        <shadow type="materialList">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="materialList" id="!c+Bake-#%f-VW9*|]PR">
+                                          <field name="FIELDNAME">Layar TV</field>
+                                        </block>
+                                      </value>
+                                      <value name="NEW_TEX_URL">
+                                        <shadow type="text">
+                                          <field name="TEXT">./newTexture.png</field>
+                                        </shadow>
+                                        <block type="text" id="a*=_/V/VFw*iBUb-~6Ht">
+                                          <field name="TEXT">./7.jpg</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="whenClicked" id="NL=~-Ee]sG-D//yr)wSJ">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                      <field name="X_RAY">FALSE</field>
+                                      <field name="DOUBLE_CLICK">FALSE</field>
+                                      <field name="LEFT_BUTTON">TRUE</field>
+                                      <field name="MIDDLE_BUTTON">TRUE</field>
+                                      <field name="RIGHT_BUTTON">TRUE</field>
+                                      <value name="VALUE">
+                                        <shadow type="objectList">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="objectList" id="seAd#P8*Lt#4Ul#bOS.}">
+                                          <field name="FIELDNAME">slide.008</field>
+                                        </block>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="replaceTexture" id="jz78@8;EULBJ0ofX;?Av">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+                                          <field name="OLD_TEX_NAME">1.jpg</field>
+                                          <value name="MATERIAL">
+                                            <shadow type="materialList">
+                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                            </shadow>
+                                            <block type="materialList" id="oz|Zr=xfciYDy3(#9$Wk">
+                                              <field name="FIELDNAME">Layar TV</field>
+                                            </block>
+                                          </value>
+                                          <value name="NEW_TEX_URL">
+                                            <shadow type="text">
+                                              <field name="TEXT">./newTexture.png</field>
+                                            </shadow>
+                                            <block type="text" id="-;u^l{(2C7?=Xk)nxWxM">
+                                              <field name="TEXT">./8.jpg</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="QIMjB8RFHplQs+Y[By-g" x="570" y="390">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="lists_create_with" id="fet|}{4JJrS6OXU;fKI=">
+          <mutation items="2"/>
+          <value name="ADD0">
+            <block type="objectList" id="{Yig2QUs7JSImWqLLQ+O">
+              <field name="FIELDNAME">tv</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="objectList" id="Ba(oGowr9W=vc=xmpY(c">
+              <field name="FIELDNAME">Layar TV</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id=":VHFprkqWW_F`AFv4?`Y">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="}Z1h:J@@N`LD{=E@c]Lr">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="grfYgmr(?(J+Bz30*Aag">
+              <field name="FIELDNAME">tv</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="`k/Ey)=%HD#.27Kp9W@;">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="e,y/[Y}Oqhm%}#5)]55I">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="BO9K,*Mw?:5i}[H/W8sS">
+              <field name="FIELDNAME">tv</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="B%g|Hm48437A|oLx+OU?">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="B?HX;N^Ak4O[fN~WkN7W">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="YQcCZF/=I$Zy@a@qNa=m">
+              <field name="FIELDNAME">tv</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="tweenCameraExt" id="chAALxy~1[+7ZxN?Zg|D">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+              <field name="MOVEMENT_TYPE">LINEAR</field>
+              <value name="POSITION">
+                <block type="objectList" id="/{B(*}JM0-cLKC)4T/@/">
+                  <field name="FIELDNAME">masuk 3 d</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="`Jks~i6tyK`T{aJUs{e!">
+                  <field name="FIELDNAME">mulai 1</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="K^j[[!O=g03?ZsoUs$_r">
+                  <field name="NUM">2</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="tweenCameraExt" id="{Ed8`oiz:,o+Yq)0ETiG">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                  <field name="MOVEMENT_TYPE">LINEAR</field>
+                  <value name="POSITION">
+                    <block type="objectList" id="pSsKX!]`ut}R^G?(KvoI">
+                      <field name="FIELDNAME">mulai 1</field>
+                    </block>
+                  </value>
+                  <value name="LOOKAT">
+                    <block type="objectList" id="C69edqHvN!nw.`NGh[j5">
+                      <field name="FIELDNAME">mulai 2</field>
+                    </block>
+                  </value>
+                  <value name="DURATION">
+                    <shadow type="math_number" id="/OcB.DCdlN^V7r0(!P$X">
+                      <field name="NUM">2</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="tweenCameraExt" id="GDG3[j)SodCQ}7f*#tk?">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                      <field name="MOVEMENT_TYPE">LINEAR</field>
+                      <value name="POSITION">
+                        <block type="objectList" id="3mXJO}^?--M`NbWFa`=5">
+                          <field name="FIELDNAME">mulai 2</field>
+                        </block>
+                      </value>
+                      <value name="LOOKAT">
+                        <block type="objectList" id="j/u;o3y#+`%1/I[S#Br`">
+                          <field name="FIELDNAME">mulai 3</field>
+                        </block>
+                      </value>
+                      <value name="DURATION">
+                        <shadow type="math_number" id="oB#%`XY{cN%5P+d_#g7w">
+                          <field name="NUM">3</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="-y;WK?FFH|m?h17=Dedg">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="w}o2Ws@jwdc?aCOFY2*0">
+                              <field name="FIELDNAME">mulai 3</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="%MXXV=.TTf]=QGFPacPW">
+                              <field name="FIELDNAME">mulai 4</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="MM$8J0)2UqqPI/hUUC:%">
+                              <field name="NUM">3</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="736.6666259765625" viewport-y="0.6666641235351562" viewport-w="512" viewport-h="288.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

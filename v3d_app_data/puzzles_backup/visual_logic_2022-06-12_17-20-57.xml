@@ -1,0 +1,49 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="548.0000000000001" scrolly="250.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="AiW)*-QxR1w;z9Z).=wj" x="-570" y="-250">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="548" scrolly="250.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="QOt]olh*|+;xFG=HKPef" x="-590" y="-190">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="nxKZLR3rwb5mr)Y;?7]P">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="pg1a[QN!7dZE1d1J2E9^">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="3_ig.wO!~zAZA|~7-#IH">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="q)oGCBGuA6_oPOMhkiG)">
+              <field name="FIELDNAME">pintu</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="*q~8?b7j{zyX=@HVpM+4">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="BRVhP[2AAe5xmbK@=`*_">
+              <field name="FIELDNAME">pintu</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="750" viewport-y="28" viewport-w="512" viewport-h="288.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

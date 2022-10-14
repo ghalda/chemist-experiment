@@ -1,0 +1,2835 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="547.9999999999993" scrolly="250.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="AiW)*-QxR1w;z9Z).=wj" x="-570" y="-250">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="false" scrollx="-40.669580702270196" scrolly="201.48496203733157" scale="0.3230481281768567">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="7jCH:#EqD]+a%GDhJjFj" type="">door</variable>
+      <variable id="sG1uviZ5Keaa(q[zsd7w" type="">kursi 2</variable>
+      <variable id="J3N=)iS5=`dg$!!1Kw!a" type="">kursi 1</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="Y9Qu5|Z]@QTuTaT}HvWn" x="-590" y="-230">
+      <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+      <value name="VALUE">
+        <block type="text" id="34s@lI?+@gLt:CNS9QO.">
+          <field name="TEXT">close</field>
+        </block>
+      </value>
+      <next>
+        <block type="whenHovered" id="QOt]olh*|+;xFG=HKPef">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="nxKZLR3rwb5mr)Y;?7]P">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="JOYh^M!U[L9l0zG+1ST#">
+              <field name="FIELDNAME">pintu</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="pg1a[QN!7dZE1d1J2E9^">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="3_ig.wO!~zAZA|~7-#IH">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="q)oGCBGuA6_oPOMhkiG)">
+                  <field name="FIELDNAME">pintu</field>
+                </block>
+              </value>
+              <next>
+                <block type="addAnnotation" id="G(~zf:Z{]L#`CX5Eu26}">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text" id="-7C|JfyTL2Bl^Dk^ST`s">
+                      <field name="TEXT">1</field>
+                    </shadow>
+                    <block type="text" id="CRshV_nH[vF{+C`Kz:5~">
+                      <field name="TEXT">Open</field>
+                    </block>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="(k0vCiAt[1Qm)@bHG|vN">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="Z(@/9``U*(r}bPz2;x!(">
+                      <field name="FIELDNAME">pintu</field>
+                    </block>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="52XAFv-fg7deKC]^JBFR">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="@kp]fvoPt?ncBp[-uo+0">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="*q~8?b7j{zyX=@HVpM+4">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="BRVhP[2AAe5xmbK@=`*_">
+                  <field name="FIELDNAME">pintu</field>
+                </block>
+              </value>
+              <next>
+                <block type="removeAnnotation" id="~y0^gc0Jx,AV|x!CA`pe">
+                  <value name="TARGET">
+                    <shadow type="objectList" id="vCy:@}ux6#N.~eW$dmJy">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="PDJ;smd3Tm=T!D!eYr~?">
+                      <field name="FIELDNAME">pintu</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="^S}[ujIIKt3TiOri.V}M">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="}j+empJ.SKzt+7,{jUA}">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="HYaIB_YWz91w!T.zlI).">
+                  <field name="FIELDNAME">pintu</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="controls_if" id="@n}RY(4`dnL5?8HkXv:$">
+                  <mutation elseif="1"/>
+                  <value name="IF0">
+                    <block type="logic_compare" id="R]KyzMq-MC$Jce^fB9tM">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="~j=4V=a0BnfH0@y5Cm7P">
+                          <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="S.og^gi,8wfKOmT~`Ey(">
+                          <field name="TEXT">close</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="playAnimationAdv" id="@#4?;x#P-g9tfbmX:%nO">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="J{.go%S-*MZiV,@LVN-P">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="animationList" id="=NrLyIk7OK(]m=Hi,l~d">
+                          <field name="FIELDNAME">pintu</field>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="H{f{o|qQZYjo+}Yn4d;K">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="8.5EGV%7;2+4$~!3CM],">
+                              <field name="FIELDNAME">masuk 1</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="vROq~}=l;gO{.tkn35+|">
+                              <field name="FIELDNAME">masuk 2 p</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="b5nBitAAUW%+1*ObG)$Q">
+                              <field name="NUM">3</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="tweenCameraExt" id="rX)g}d;rD/!H94:{iAm8">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                              <field name="MOVEMENT_TYPE">LINEAR</field>
+                              <value name="POSITION">
+                                <block type="objectList" id="H8CYa1SNR^!+Iz6u@cBV">
+                                  <field name="FIELDNAME">masuk 2 p</field>
+                                </block>
+                              </value>
+                              <value name="LOOKAT">
+                                <block type="objectList" id="HrPC#-RgDH]b]qzG$[j8">
+                                  <field name="FIELDNAME">masuk 2 d</field>
+                                </block>
+                              </value>
+                              <value name="DURATION">
+                                <shadow type="math_number" id="H!PR(bBht1hnt9Z/DM~i">
+                                  <field name="NUM">3</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="tweenCameraExt" id="fqzQSU5PZC:U:orZG`@~">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                                  <field name="MOVEMENT_TYPE">LINEAR</field>
+                                  <value name="POSITION">
+                                    <block type="objectList" id="C5ov*X[vu~z4DLv287X^">
+                                      <field name="FIELDNAME">masuk 3 p</field>
+                                    </block>
+                                  </value>
+                                  <value name="LOOKAT">
+                                    <block type="objectList" id="x?UL~BuHRe7boWVjO}uo">
+                                      <field name="FIELDNAME">masuk 3 d</field>
+                                    </block>
+                                  </value>
+                                  <value name="DURATION">
+                                    <shadow type="math_number" id="1C[BHK!A$R5!A8M.BOM}">
+                                      <field name="NUM">3</field>
+                                    </shadow>
+                                  </value>
+                                  <statement name="DO">
+                                    <block type="variables_set" id="Slp]meV/798Jk6(]P{5Z">
+                                      <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+                                      <value name="VALUE">
+                                        <block type="text" id=":s8CRJve1z|a*$D0SG{|">
+                                          <field name="TEXT">open</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </statement>
+                                </block>
+                              </statement>
+                            </block>
+                          </statement>
+                        </block>
+                      </statement>
+                    </block>
+                  </statement>
+                  <value name="IF1">
+                    <block type="logic_compare" id="|bw%Ci-|0wOW;ey`T.pr">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="PpNi0eZDbF^VJiJ}oKLm">
+                          <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="bEL7`uJF6t`AGtmoE@tD">
+                          <field name="TEXT">open</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO1">
+                    <block type="playAnimationAdv" id="=(g[|qX})UpXK`)F[LzK">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">TRUE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="animationList" id="iw9nj$3a2AJ(rX_5qali">
+                          <field name="FIELDNAME">pintu</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="variables_set" id="L!^G%34`I|Qw2IB9:[cQ">
+                          <field name="VAR" id="7jCH:#EqD]+a%GDhJjFj">door</field>
+                          <value name="VALUE">
+                            <block type="text" id=":_/eSKOQuPL!RjkFUZMW">
+                              <field name="TEXT">close</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="yls`4tPA?V^Cbump}f8U" x="790" y="-130">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="lists_create_with" id="bkT+!t6oa9kT6t~uM=RH">
+          <mutation items="2"/>
+          <value name="ADD0">
+            <block type="objectList" id="rK4V/QH|s9gr4I1.Q]xi">
+              <field name="FIELDNAME">tv</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="objectList" id="KXh2CgzzRqY[1SsroD]P">
+              <field name="FIELDNAME">Layar TV</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="2MsP-|a6-h2_3a$~o$(u">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="WpR]|cT{e#E=%+O.J*X5">
+              <field name="FIELDNAME">tv</field>
+            </block>
+          </value>
+          <next>
+            <block type="addAnnotation" id="8tYKI+Q{)$r3~*0[DBW!">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text">
+                  <field name="TEXT">1</field>
+                </shadow>
+                <block type="text" id="m9SWm@B;:-+Um.6gDM(u">
+                  <field name="TEXT">Start Experiment</field>
+                </block>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="FVR$L],myan*U_;fmYt7">
+                  <field name="FIELDNAME">tv</field>
+                </block>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="S}:s?[V%{.-:o@l!.;tw">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="ILO4`Xuq*fsG;N3VwSa#">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="^yYnisr(BA}y]|eH7emt">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="*JX]suJ^+PiLWKvK77jq">
+              <field name="FIELDNAME">tv</field>
+            </block>
+          </value>
+          <next>
+            <block type="removeAnnotation" id="Q`{[cozU1wmlHk?9oZ`?">
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="gS4/Y/?KZ7w3i-}:mKxT">
+                  <field name="FIELDNAME">tv</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="ITiYr6l!v2xR[s9;-DNb">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="lists_create_with" id="ZCDfiysN8}sjD7I%C|lU">
+              <mutation items="2"/>
+              <value name="ADD0">
+                <block type="objectList" id="{10wf5qpe0yZeZGyWmn.">
+                  <field name="FIELDNAME">tv</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="objectList" id="tgN[5|^f:V1p[mC=XSFr">
+                  <field name="FIELDNAME">Layar TV</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="tweenCameraExt" id="KpX-%YvI7:CJ7:2.qq:@">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+              <field name="MOVEMENT_TYPE">LINEAR</field>
+              <value name="POSITION">
+                <block type="objectList" id="|u`AG.x7w85[8PD|KJ1Z">
+                  <field name="FIELDNAME">masuk 3 d</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="HMya$e)E%PuhhB@t!|;A">
+                  <field name="FIELDNAME">mulai 1</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="bvC$@475~Bac/L)dwkRp">
+                  <field name="NUM">3</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="tweenCameraExt" id="`arL:U6=kxIwXJYP24cX">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                  <field name="MOVEMENT_TYPE">LINEAR</field>
+                  <value name="POSITION">
+                    <block type="objectList" id="LE%2(@^]c%x4[M~*mr^8">
+                      <field name="FIELDNAME">masuk 3 d</field>
+                    </block>
+                  </value>
+                  <value name="LOOKAT">
+                    <block type="objectList" id="WfKihxmnm#)5};ST`vT=">
+                      <field name="FIELDNAME">mulai 2</field>
+                    </block>
+                  </value>
+                  <value name="DURATION">
+                    <shadow type="math_number" id="TEfig4|X}VfQrw*H[2]4">
+                      <field name="NUM">3</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="tweenCameraExt" id="`+7pLz_]*=D`k7]5VMQo">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                      <field name="MOVEMENT_TYPE">LINEAR</field>
+                      <value name="POSITION">
+                        <block type="objectList" id="8sApt)y(t`X)3B6mza$#">
+                          <field name="FIELDNAME">mulai 2</field>
+                        </block>
+                      </value>
+                      <value name="LOOKAT">
+                        <block type="objectList" id="Zhq!Qr${!N~0ovwr8IbG">
+                          <field name="FIELDNAME">mulai 3</field>
+                        </block>
+                      </value>
+                      <value name="DURATION">
+                        <shadow type="math_number" id="HWAXfGFLkx{F7P{,3@R`">
+                          <field name="NUM">3</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="*avpWb3[C/-kMR^:nydt">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="oLF=i;-$SY*Zu[qUTp[P">
+                              <field name="FIELDNAME">mulai 4</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="QKM02a.d#e~)(PY_!IrO">
+                              <field name="FIELDNAME">mulai 5</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="/)G9js+%C|^V7;(U##q6">
+                              <field name="NUM">3</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="/[I1}agHy.fmhhNtowF(" x="-550" y="570">
+      <field name="VAR" id="sG1uviZ5Keaa(q[zsd7w">kursi 2</field>
+      <value name="VALUE">
+        <block type="text" id="Go`Mz2K]qTP_JmB2|fNZ">
+          <field name="TEXT">move 0</field>
+        </block>
+      </value>
+      <next>
+        <block type="whenHovered" id="CNjBM2`pqE,LExyrLvX/">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id=",|k|H4J1ett[ac@$K]`Q">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="6th=#/o44l?]NzFpwC?0">
+              <field name="FIELDNAME">kursi gerak.001</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="Lfs{nfEVh_Aq-)(RXNs:">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="5mYVs`eA_q#x1$2pgG|;">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="o%?2O7}??xE;9b4zIld4">
+                  <field name="FIELDNAME">kursi gerak.001</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="F9%jT|JM8cL3/gka3T_}">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="=Noa0Pnh/RtYYRQ#-3(p">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="D=]-T}3en$#:MKoR__dr">
+                  <field name="FIELDNAME">kursi gerak.001</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="9V#2met2Ms`9ZjoR|OSE">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="lD+Yqp[Sd1Sk:dou5LwU">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id=".Q^ty#YMW[LG+TD.XmmU">
+                  <field name="FIELDNAME">kursi gerak.001</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="controls_if" id=",}xY?$=msFp0?ywLz`tC">
+                  <mutation elseif="1"/>
+                  <value name="IF0">
+                    <block type="logic_compare" id="Cp4417V4i{R_yk!n}8{9">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="3ufHE/y6O-YZI9bdvu{`">
+                          <field name="VAR" id="sG1uviZ5Keaa(q[zsd7w">kursi 2</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="5Vb_E~k4lsbyj@cCL#Yw">
+                          <field name="TEXT">move 0</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="playAnimationAdv" id="~vWV5dmTWw~9o}s6788K">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="animationList" id="N7B=#i9G/Z1?|FM[VSXw">
+                          <field name="FIELDNAME">kursi gerak.001</field>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="variables_set" id="Ihq.xZ9pke%KhO#vh%l;">
+                          <field name="VAR" id="sG1uviZ5Keaa(q[zsd7w">kursi 2</field>
+                          <value name="VALUE">
+                            <block type="text" id="5`-$OC(.F;@pz[^fN{^r">
+                              <field name="TEXT">move 1</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </statement>
+                  <value name="IF1">
+                    <block type="logic_compare" id="5ZCkv;jqO_G}Sr4d[mOJ">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="y_y`U$A0J{;+zi{Uc9E_">
+                          <field name="VAR" id="sG1uviZ5Keaa(q[zsd7w">kursi 2</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="!y2[FmV,jW+5,_#,$2L-">
+                          <field name="TEXT">move 1</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO1">
+                    <block type="playAnimationAdv" id="0*LI5L(?%[6Wk*zdA@YR">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">TRUE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="animationList" id="k_-2nC{%+C$XRaknaaz5">
+                          <field name="FIELDNAME">kursi gerak.001</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="variables_set" id="s(,z:?/}.G-7*7OO8PRv">
+                          <field name="VAR" id="sG1uviZ5Keaa(q[zsd7w">kursi 2</field>
+                          <value name="VALUE">
+                            <block type="text" id="Ky6Zk*WIP^bN}?SdutM`">
+                              <field name="TEXT">move 0</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="vVon`?0#4=rs}VTVDsle" x="430" y="550">
+      <field name="VAR" id="J3N=)iS5=`dg$!!1Kw!a">kursi 1</field>
+      <value name="VALUE">
+        <block type="text" id="di2_^(o8Zc2*ZS0rQ7KL">
+          <field name="TEXT">move 0</field>
+        </block>
+      </value>
+      <next>
+        <block type="whenHovered" id="99PI^mU6E#^mE6J5K|G[">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="OCl2MOh$]i)c(usedJk[">
+              <field name="FIELDNAME">kursi gerak</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="uN0=?PpwXT9Y5`:B1hgK">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="kfB4WoBYo;:!j{jcV^/Z">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="T:/{K^rW4x7HC-H;Kpt0">
+                  <field name="FIELDNAME">kursi gerak</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="G38[SGPA)vV1.q/`IMIk">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="bs0/wfQ{cGzk;sAm*V6]">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="Krgy3GyE$ShlFkkOtW=D">
+                  <field name="FIELDNAME">kursi gerak</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="i7oPg9f~JnxU`3/r/+G]">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="GLjx0[R9fNZ9.5#vnq.)">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="~0HLV5z0N#DTf//pU$t~">
+                  <field name="FIELDNAME">kursi gerak</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="controls_if" id="v[$a^[ht8yD4#8nAqV@G">
+                  <mutation elseif="1"/>
+                  <value name="IF0">
+                    <block type="logic_compare" id="pBfG!/VdbB^;sg67A.NO">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="3N*a]-wi#SoE:bOePSKw">
+                          <field name="VAR" id="J3N=)iS5=`dg$!!1Kw!a">kursi 1</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="p~c3(^ph8N3eo(j%_{4O">
+                          <field name="TEXT">move 0</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="playAnimationAdv" id="b$)4.,8C9l0mggD$cdE,">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="animationList" id="9}rTH{@KhpZ3pI06Rg9|">
+                          <field name="FIELDNAME">kursi gerak</field>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="variables_set" id=".2}KV!^*5`N#4G)4t#F]">
+                          <field name="VAR" id="J3N=)iS5=`dg$!!1Kw!a">kursi 1</field>
+                          <value name="VALUE">
+                            <block type="text" id="TH_%W8heXm#1cmttX89$">
+                              <field name="TEXT">move 1</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </statement>
+                  <value name="IF1">
+                    <block type="logic_compare" id="~ui#0;^Kip4zrzQ6?9df">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="{qu7LI|3wml3p2vL:#o{">
+                          <field name="VAR" id="J3N=)iS5=`dg$!!1Kw!a">kursi 1</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="yG]bL;1Rx+eL$1]u6_[.">
+                          <field name="TEXT">move 1</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO1">
+                    <block type="playAnimationAdv" id="71(d_yWhNxF4VK!Pia*e">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">TRUE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="animationList" id="}p[`7(ez$I)q|I_%)xx+">
+                          <field name="FIELDNAME">kursi gerak</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="variables_set" id="5Lxf|z.TD5|lm:.E*}0l">
+                          <field name="VAR" id="J3N=)iS5=`dg$!!1Kw!a">kursi 1</field>
+                          <value name="VALUE">
+                            <block type="text" id="+gPCeZnnhhELCNn:vi.*">
+                              <field name="TEXT">move 0</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="Interface VR" type="SecondaryTab" active="false" scrollx="0" scrolly="22" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="rKzq:W~{.Ubls]s:K8)Z" x="70" y="50">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="_PI%KMIrw6105XKlp2T=">
+          <field name="TEXT"/>
+        </shadow>
+        <block type="text" id="J8kEHxE}CO9]6eluq%bw">
+          <field name="TEXT">vr-button</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="enterVRMode" id="lvCwBVm|}z3AU;zQ7REN">
+          <field name="REF_SPACE">ORIGIN</field>
+          <statement name="DO_ENTER">
+            <block type="snapToObject" id="cYXhuFi4z|?@NQDl_OY=">
+              <value name="SNAPWHAT">
+                <shadow type="objectList" id="BTi8w-%Jd~cVeaTAHdJ^">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="fJ/(I?CcH;-`nuGRW/_O">
+                  <field name="FIELDNAME">Camera</field>
+                </block>
+              </value>
+              <value name="SNAPTO">
+                <shadow type="objectList" id="}l#=BPrh|RFJf44xvJ:J">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id=".Yg|#o2Jf]-(/MbsGlHd">
+                  <field name="FIELDNAME">VR Cam</field>
+                </block>
+              </value>
+              <next>
+                <block type="makeParent" id="8ljIVC=;SGvG^[@Jsek8">
+                  <value name="PARENT_WHAT">
+                    <shadow type="objectList" id="b*,{-l)U:Z2P=-u`h{=x">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="wkTi2!PM/i_x|8LjtHK~">
+                      <field name="FIELDNAME">Camera</field>
+                    </block>
+                  </value>
+                  <value name="PARENT_TO">
+                    <shadow type="objectList" id="{s#k:il_?.B@3P|T,;wB">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="R*QQjL$AeV1MuSq_Qr|%">
+                      <field name="FIELDNAME">VR Cam</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="Alat Hover" type="SecondaryTab" active="false" scrollx="-335.21584598849586" scrolly="-296.38992699874143" scale="0.5011536763598028">
+    <block xmlns="https://developers.google.com/blockly/xml" type="lists_create_with" id=")N[UXZ#GAtwaP~9sa9dT" x="1330" y="-190">
+      <mutation items="8"/>
+      <value name="ADD0">
+        <block type="objectList" id="`Fjz!:tqPD#|snG7p1wj">
+          <field name="FIELDNAME">lakmus merah bergerak.001</field>
+        </block>
+      </value>
+      <value name="ADD1">
+        <block type="objectList" id="K[|]*fDNVAtl,$X;pGbu">
+          <field name="FIELDNAME">lakmus biru bergerak.001</field>
+        </block>
+      </value>
+      <value name="ADD2">
+        <block type="objectList" id="H|9U6@PFkH!0qK.!QXF2">
+          <field name="FIELDNAME">vinegar water - blue litmus</field>
+        </block>
+      </value>
+      <value name="ADD3">
+        <block type="objectList" id="=}z~}(n=s+8g`ctLtQCK">
+          <field name="FIELDNAME">vinegar water - red litmus</field>
+        </block>
+      </value>
+      <value name="ADD4">
+        <block type="objectList" id="EDV]Zjj099kpUtCp1gI}">
+          <field name="FIELDNAME">detergent water - blue litmus</field>
+        </block>
+      </value>
+      <value name="ADD5">
+        <block type="objectList" id="yWR5W(wZ3ty;(FU%x4lc">
+          <field name="FIELDNAME">detergent water - red litmus</field>
+        </block>
+      </value>
+      <value name="ADD6">
+        <block type="objectList" id="[;O0WhVV[E}#3I(|47Mz">
+          <field name="FIELDNAME">salt water - blue litmus</field>
+        </block>
+      </value>
+      <value name="ADD7">
+        <block type="objectList" id="5(%MTKs!-N,k3%{X[o^x">
+          <field name="FIELDNAME">salt water - red litmus</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="Lh@$B,HE=eOmnz.-RSwj" x="30" y="50">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="|5{Wlp9W|ga$jAW9#_{e">
+          <field name="FIELDNAME">1 Glass of Salt Water</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="VnF8jQp)aYZ_Q#_(W9v9">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="Tz.B;OA7:{2[jPzg|jeV">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="OZi9A60AapxP)LCtqb9$">
+              <field name="FIELDNAME">1 Glass of Salt Water</field>
+            </block>
+          </value>
+          <next>
+            <block type="addAnnotation" id="@2dCqadlbu?JAohNFpyS">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text">
+                  <field name="TEXT">1</field>
+                </shadow>
+                <block type="text" id="H^l@j$w%wFszcL-AW[|S">
+                  <field name="TEXT">Salt Water</field>
+                </block>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList" id="R^}OK8u@S(u1:n`2?/BO">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="E5?we$O?RWc}m!!*3jtN">
+                  <field name="FIELDNAME">1 Glass of Salt Water</field>
+                </block>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="VLCsgT?#Thy^vjC6D^k)">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="{eOv2nO^W3MT-,R=0LbL">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="h!Hm1xz1]bn!tauFc3/y">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="y20L;c=2x(a1(UX2Fy*K">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="/M0@.$9%L$4V0_+Yu9qG">
+              <field name="FIELDNAME">1 Glass of Salt Water</field>
+            </block>
+          </value>
+          <next>
+            <block type="removeAnnotation" id="_6yrl:EbyC{^o~dz|i|n">
+              <value name="TARGET">
+                <shadow type="objectList" id="(`Y6Zo*z4uX$r%RMMYdN">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="^Lg]}_BXY!DE.f$D-_z2">
+                  <field name="FIELDNAME">1 Glass of Salt Water</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="whenHovered" id="K~|{fW=/O0H%do,p9:6X">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="5D~ilStTsT;^SAX-P:3~">
+              <field name="FIELDNAME">2 Glass of Detergent Water</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="il[pCo{NhBQs*73J?b{#">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="GjZL-P4[xq~*e7U-iJk)">
+                  <field name="FIELDNAME">2 Glass of Detergent Water</field>
+                </block>
+              </value>
+              <next>
+                <block type="addAnnotation" id="{}p#7Lw{R933*OOvuQHC">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text">
+                      <field name="TEXT">1</field>
+                    </shadow>
+                    <block type="text" id="XZ2]?.Yfc//ZU]D876eG">
+                      <field name="TEXT">Detergent Water</field>
+                    </block>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="FNE0uMr0q1xCYuWF3ftq">
+                      <field name="FIELDNAME">2 Glass of Detergent Water</field>
+                    </block>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="FTUj9K+fr-dWrp*^[VF!">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="HiOppL$LU#b;qbN+BF,u">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id=";%xu,g1O!`phpWivfx2O">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="phKOQ-l.T4kix7O(~eF.">
+                  <field name="FIELDNAME">2 Glass of Detergent Water</field>
+                </block>
+              </value>
+              <next>
+                <block type="removeAnnotation" id=")],#~a|8[nSnMw/T86zj">
+                  <value name="TARGET">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="sx5[OWZ,UEgVC?f/Z36W">
+                      <field name="FIELDNAME">2 Glass of Detergent Water</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="whenHovered" id="KtU=gif^O|B9$:`d7:F!">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <value name="VALUE">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="0P=xug/IXXgBLt-QaHE/">
+                  <field name="FIELDNAME">3 Glass of Vinegar Water</field>
+                </block>
+              </value>
+              <statement name="DO_OVER">
+                <block type="outline" id="8,~](]|$y!`t2vE20Lq]">
+                  <field name="DO_WHAT">ENABLE</field>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="hWpDWJfSpH8y?b7BKjHA">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="[zC27BI~Q1EKDL*?%:B.">
+                      <field name="FIELDNAME">3 Glass of Vinegar Water</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="addAnnotation" id="Hody,wH$I?=_p)dnF:w0">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                      <value name="ANNOTATION">
+                        <shadow type="text">
+                          <field name="TEXT">1</field>
+                        </shadow>
+                        <block type="text" id="I:CZ=yV{DGFNGP3;-vdg">
+                          <field name="TEXT">Vinegar Water</field>
+                        </block>
+                      </value>
+                      <value name="TARGET">
+                        <shadow type="objectList" id="kqj2C!z({f`5rh^Y,~bd">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="t-p7OFd;lSrH[K0mxi/o">
+                          <field name="FIELDNAME">3 Glass of Vinegar Water</field>
+                        </block>
+                      </value>
+                      <value name="CONTENTS">
+                        <shadow type="text" id="f3oD~W$hs/XIQ3#{cr%:">
+                          <field name="TEXT"/>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="AIJ[i91%5a|i}-^{#{6B">
+                          <field name="TEXT"/>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <statement name="DO_OUT">
+                <block type="outline" id="i:xOwgIFjYSiV8Oe}Ln.">
+                  <field name="DO_WHAT">DISABLE</field>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="5$oh/]0GN|knAj|ZC|KS">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="5oq7i_X};e{hCis)zv-J">
+                      <field name="FIELDNAME">3 Glass of Vinegar Water</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="removeAnnotation" id=":D/_,@r~Wu}O76oULJCa">
+                      <value name="TARGET">
+                        <shadow type="objectList" id="=tB*4]EXfkoo)c=VJ4z=">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="m%GZq]{+xXrQlKY%3wUP">
+                          <field name="FIELDNAME">3 Glass of Vinegar Water</field>
+                        </block>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="TM6PZ|6$;(944R4v%]uO" x="1030" y="70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="Z@qzW6V|w`mq{Cj?4.Ru">
+          <field name="FIELDNAME">lakmus merah bergerak.001</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="YH^]N1kral@Y5sx@wBFT">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="nE{w4]L;]qiSZumn^%zW">
+              <field name="FIELDNAME">lakmus merah bergerak.001</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="/dgIeX=?3(|7~4qC!tnB">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="T^=VFbk2XZ}(Z,kGXE#a">
+              <field name="FIELDNAME">lakmus merah bergerak.001</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="(3EQVp4:!JG^b,DgKo1N" x="1010" y="230">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="CJh6y=K-a)d^/^n{UeVh">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="$4H-Sqitl$qDbWkQ!72)">
+          <field name="FIELDNAME">vinegar water - blue litmus</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="!%[@bdFd:*|pJ~u8@%q]">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="TVC|r_zWo{hk5sUk07|U">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="naGVP+q,y[HE~)Bt!7S{">
+              <field name="FIELDNAME">vinegar water - blue litmus</field>
+            </block>
+          </value>
+          <next>
+            <block type="addAnnotation" id="$(HL0;r[sS44O0^@6eMB">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text" id="S2WTl,sjhMAQ%++8j+Pp">
+                  <field name="TEXT">1</field>
+                </shadow>
+                <block type="text" id="#^?ajK9XuV+eWcGquu,#">
+                  <field name="TEXT">Vinegar Water</field>
+                </block>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList" id="$WRRw[FGgk4+9[s?uGx5">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="}tR=iG~-c{.d0w1Qno][">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="fU|j9.2wT-QKm@pv^Kw0">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="0rq+,{MdnR1SnhFF?Li3">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="=$,B!am/:@C-yI[LL4Zs">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="Um^=aTG}n}{5{lOLxzdD">
+              <field name="FIELDNAME">vinegar water - blue litmus</field>
+            </block>
+          </value>
+          <next>
+            <block type="removeAnnotation" id="U:)0]^w*y:vEo(+.J%fO">
+              <value name="TARGET">
+                <shadow type="objectList" id="z@8q))S/dv(PoW/}OEPJ">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="}ZmyO9BO0Vpj2_0hC[|!">
+                  <field name="FIELDNAME">vinegar water - blue litmus</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="whenHovered" id="GFC;N@UiyFxy*p}r@42J">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="Qb#/;[Qq8+,SQ{z_9(E6">
+              <field name="FIELDNAME">vinegar water - red litmus</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="Qm.)Q+LL|8nSMB(gYkgU">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="v.Y,2gvk~|^K~0rEgW=7">
+                  <field name="FIELDNAME">vinegar water - red litmus</field>
+                </block>
+              </value>
+              <next>
+                <block type="addAnnotation" id="%qQmGv3~}k%OyLj@~wfj">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text" id="uOB[T(XuQeD`9#kVm|n_">
+                      <field name="TEXT">1</field>
+                    </shadow>
+                    <block type="text" id="hXLKG_hOVHlPKr|ms(((">
+                      <field name="TEXT">Vinegar Water</field>
+                    </block>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="[o|lJpa8Tk*IfXx/Xi=%">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="U]dZ6i(or+O?nQkU4W;~">
+                      <field name="FIELDNAME">vinegar water - red litmus</field>
+                    </block>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="b1*vub^=6Lk-9TtaC~Wq">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="{{+Pnk_I+[*jUF%bi}R;">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="NJQ35Bt3cV)F!EdvJ+;v">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="1iLarV`4b}HG={^pUinE">
+                  <field name="FIELDNAME">vinegar water - red litmus</field>
+                </block>
+              </value>
+              <next>
+                <block type="removeAnnotation" id="?Y!{gwwqr/eqF:?8~54g">
+                  <value name="TARGET">
+                    <shadow type="objectList" id="#wEWUr;/owgO92Uy@^}6">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id=".7J-O_ojv?22/sTD2eXf">
+                      <field name="FIELDNAME">vinegar water - red litmus</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="k:oR]([cp0BGXh0y#HBA" x="1010" y="650">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="X)a89KL-D~?sAIn#t1hU">
+          <field name="FIELDNAME">detergent water - blue litmus</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="0@zdb1XKh23@ru3A;en3">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="3%q|hm^^HHG5ZaUkp#j[">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="i(X0JC*UDcYAm=,iw-:t">
+              <field name="FIELDNAME">detergent water - blue litmus</field>
+            </block>
+          </value>
+          <next>
+            <block type="addAnnotation" id="+8pO?ox_+^hTrfAuv~7M">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text">
+                  <field name="TEXT">1</field>
+                </shadow>
+                <block type="text" id="7eD4wP2^Labvt`)|{]-j">
+                  <field name="TEXT">Detergent Water</field>
+                </block>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList" id="?S4a9@I%2$0S?FH)P-c7">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="K$_qzgzuol5.Jj#d=Z_C">
+                  <field name="FIELDNAME">detergent water - blue litmus</field>
+                </block>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="ILjob#7h0$mX-G{p)ukn">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id=";8R1gdZ|,7zCPM5G0tt[">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="Vvi7dBWJ}/3TeSK/Pa0}">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="Mo1k_/?fHbj:(,vHW7b2">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="-LDtKp]Tff*?Da0|x}|8">
+              <field name="FIELDNAME">detergent water - blue litmus</field>
+            </block>
+          </value>
+          <next>
+            <block type="removeAnnotation" id="kbFU]Z)wO6KeX[@6^ylY">
+              <value name="TARGET">
+                <shadow type="objectList" id="u{Mt/D]|JCm|hK88b|O5">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="^[z.)j$@LaJ3]y_H(Ihi">
+                  <field name="FIELDNAME">detergent water - blue litmus</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="whenHovered" id="jA8`E0keBf0##8ESJ-hE">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="UA?3CVw1=K%x.S!pm*@+">
+              <field name="FIELDNAME">detergent water - red litmus</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="Rv|6Qwcx3@uBBpXT}CB`">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="E#,0K!9Tq~SFM$=2pHv~">
+                  <field name="FIELDNAME">detergent water - red litmus</field>
+                </block>
+              </value>
+              <next>
+                <block type="addAnnotation" id="(vVL#@j~?rY/l+nExDL.">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text">
+                      <field name="TEXT">1</field>
+                    </shadow>
+                    <block type="text" id="V,(o}id5!XGNhx0o}pY(">
+                      <field name="TEXT">Detergent Water</field>
+                    </block>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="IUXGZSSb4Km2D.[;s8M7">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="uNPDmjaxbJ*bf!!*iP1s">
+                      <field name="FIELDNAME">detergent water - red litmus</field>
+                    </block>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="Ay%%c`o3pnHXvnA|#-*_">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="DMQ}`Fea[ZOPyGXbFqnX">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="D/SWpwD#Uj?G`HW[3.WZ">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="O#NW#tB3fLC~4XLo?4f#">
+                  <field name="FIELDNAME">detergent water - red litmus</field>
+                </block>
+              </value>
+              <next>
+                <block type="removeAnnotation" id="#6A*mGk:XV]887jH2N]F">
+                  <value name="TARGET">
+                    <shadow type="objectList" id="tM3JB$%XyfFN:SXi@W~J">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id=":?j$ikzdGZ6ii5;0Z6rI">
+                      <field name="FIELDNAME">detergent water - red litmus</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="H_;`1tYf/6fcYwJTNq`E" x="-10" y="710">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="GlcronL4xbMI|}ip-qWM">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="lists_create_with" id="BVaPJ,oLTeL54sF4KqjB">
+          <mutation items="2"/>
+          <value name="ADD0">
+            <block type="objectList" id="4|MyVV/^|n!r!J%}[$=L">
+              <field name="FIELDNAME">tutup lakmus merah</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="objectList" id="i7a)O$tL)0XgB~q:TE#K">
+              <field name="FIELDNAME">wadah lakmus merah</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="lLE|zY%4VP*/JtAV764T">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="IL{RPp#{%#u2V]CrQDI1">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="lists_create_with" id="9U2S?r:pLwv~13#5a.+H">
+              <mutation items="2"/>
+              <value name="ADD0">
+                <block type="objectList" id="J1eFNd6SA/P^ucx:Q|(j">
+                  <field name="FIELDNAME">tutup lakmus merah</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="objectList" id="=~p5m9DT6;gV$SoA:j?E">
+                  <field name="FIELDNAME">wadah lakmus merah</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <next>
+            <block type="addAnnotation" id="sFjVrPyy+7HhSk]sUW5X">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text">
+                  <field name="TEXT">1</field>
+                </shadow>
+                <block type="text" id=";Wb(BQMaXE!,xiEb4YXO">
+                  <field name="TEXT">Red Litmus</field>
+                </block>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="SZuOO*$+lD0m9?x:iTOf">
+                  <field name="FIELDNAME">wadah lakmus merah</field>
+                </block>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="d.0,f{JV@.V#PC|4}$i6">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id=")p4U@8{-9pl0K[,Qn)v6">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="0P7!6Nv4M].%~1_rj@};">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="%$bYCa)L~/HE/p`vMSo2">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="lists_create_with" id="]md372OZfKw$cn|$:B0i">
+              <mutation items="2"/>
+              <value name="ADD0">
+                <block type="objectList" id="5Bh:R|D#%L@R1X@$}zhf">
+                  <field name="FIELDNAME">tutup lakmus merah</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="objectList" id="p`g;`x1)/-eb!!KhAj7w">
+                  <field name="FIELDNAME">wadah lakmus merah</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <next>
+            <block type="removeAnnotation" id="@{,oY@%]y^Xzl95#Z3f|">
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="=(^%?cp3Hys2l-0iCQGH">
+                  <field name="FIELDNAME">wadah lakmus merah</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="whenHovered" id="1f*)p++2}OE+BdDu_^)H">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="lists_create_with" id="*_K2r:l_xY4VZADxE8.g">
+              <mutation items="2"/>
+              <value name="ADD0">
+                <block type="objectList" id="VJh%ZdBzw76-ud_xlAb0">
+                  <field name="FIELDNAME">tutup lakmus biru</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="objectList" id="Lw30v)Dc*v9xqqys.^eh">
+                  <field name="FIELDNAME">wadah lakmus biru </field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="OFcI~;E%G,+gBH:jQqK2">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="U]U82DkazDUjx?a5-k:x">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="lists_create_with" id="gtRRpQRR2O!x+vJ~WY1I">
+                  <mutation items="2"/>
+                  <value name="ADD0">
+                    <block type="objectList" id="*4dPh4ljNX$WYf(#8*Fc">
+                      <field name="FIELDNAME">tutup lakmus biru</field>
+                    </block>
+                  </value>
+                  <value name="ADD1">
+                    <block type="objectList" id="UO8[%WAZ^ICvc6qvYcS4">
+                      <field name="FIELDNAME">wadah lakmus biru </field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <next>
+                <block type="addAnnotation" id="/MnlT]yp;%I~8qr}q:Yn">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text">
+                      <field name="TEXT">1</field>
+                    </shadow>
+                    <block type="text" id="arK,W~6+((m^IM[*{jPT">
+                      <field name="TEXT">Blue Litmus</field>
+                    </block>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="P[*lYRtM.EqNzNGnKBK1">
+                      <field name="FIELDNAME">wadah lakmus biru </field>
+                    </block>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="/5!hOmyMJ1oNSe]d]@s^">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="kZ,q6sDAx1uwTuzhCsz)">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="/U|/%f?*Bn5yL^.B=@KP">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="{0Ws,uz;KB[15uP,Iy4x">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="lists_create_with" id=",0+#]G}5EU_X@5`F023i">
+                  <mutation items="2"/>
+                  <value name="ADD0">
+                    <block type="objectList" id="UO-7q4=o#fl~ZVn$#Ly1">
+                      <field name="FIELDNAME">tutup lakmus biru</field>
+                    </block>
+                  </value>
+                  <value name="ADD1">
+                    <block type="objectList" id=";P8-fKI*5-rj^.^p;MgO">
+                      <field name="FIELDNAME">wadah lakmus biru </field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <next>
+                <block type="removeAnnotation" id="4ivu{`3JyUZWZroA{|;p">
+                  <value name="TARGET">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="k#:_dtM6OZ8LnL8U:95{">
+                      <field name="FIELDNAME">wadah lakmus biru </field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="gS.y_63Bucf*O+?bABnT" x="1030" y="1070">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="Al!pGu(MPLBj~t8mPA::">
+          <field name="FIELDNAME">salt water - blue litmus</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="outline" id="@c03CdIz.rF,gY6j7CL)">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="jTB.A^ebVKi++zEPB4Ky">
+              <field name="FIELDNAME">salt water - blue litmus</field>
+            </block>
+          </value>
+          <next>
+            <block type="addAnnotation" id="5s08]_P2u)HBmF@gM4%!">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text">
+                  <field name="TEXT">1</field>
+                </shadow>
+                <block type="text" id="|Qa9lq,1Yj2m+{g8~bI@">
+                  <field name="TEXT">Salt Water</field>
+                </block>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList" id="tO/b9DvpQ%u~/}.dTq$0">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="eheT2M#`[OE,FBw[qM-d">
+                  <field name="FIELDNAME">salt water - blue litmus</field>
+                </block>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="WTEAy_C4s[Ax?HWMQCEy">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="qNCz%`||lOR#Kx?n7;6,">
+                  <field name="TEXT"/>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="outline" id="ne}k=}`wVn/Bjn#K}wyh">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="ef;}[IumoI4L6},~av`f">
+              <field name="FIELDNAME">salt water - blue litmus</field>
+            </block>
+          </value>
+          <next>
+            <block type="removeAnnotation" id="r?0L}1l8kkniEgrSrjOV">
+              <value name="TARGET">
+                <shadow type="objectList" id="m40_A7X5`3Un}ZifQP}`">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="A,%eawO!nS_(J%mf?HXS">
+                  <field name="FIELDNAME">salt water - blue litmus</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="whenHovered" id="g*l}569/,DOaf+YML5y?">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="*3;~[*VX$8[n5Ucn?pmH">
+              <field name="FIELDNAME">salt water - red litmus</field>
+            </block>
+          </value>
+          <statement name="DO_OVER">
+            <block type="outline" id="w@@?x4KG@#~Qc|HKy2Tl">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="^EREk=[i0PFAy4vy|M_*">
+                  <field name="FIELDNAME">salt water - red litmus</field>
+                </block>
+              </value>
+              <next>
+                <block type="addAnnotation" id="E3/^R+D;B_ukWr`]^0K9">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text">
+                      <field name="TEXT">1</field>
+                    </shadow>
+                    <block type="text" id="N5M|dq0PlM+_?@vfX}5_">
+                      <field name="TEXT">Salt Water</field>
+                    </block>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="izllIl{/ymWU|qMcD/e^">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="MZJVUJa9Wi%iz^Q[.q^)">
+                      <field name="FIELDNAME">salt water - red litmus</field>
+                    </block>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="W84KT6to3tN*rG#w_j;]">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="97vLE7x3zm`],oLeu3p0">
+                      <field name="TEXT"/>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="DO_OUT">
+            <block type="outline" id="8Os$tk,MP9O`P;lKog,r">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="angZnJ:}ZA1f{3G}4w0v">
+                  <field name="FIELDNAME">salt water - red litmus</field>
+                </block>
+              </value>
+              <next>
+                <block type="removeAnnotation" id="-dfR4_z]m=2X(oX(TDw4">
+                  <value name="TARGET">
+                    <shadow type="objectList" id="~[nY:!Ff9^Bt{xpb@^LU">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="s!xn^a2}8q.v{+y^xz(K">
+                      <field name="FIELDNAME">salt water - red litmus</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="Praktikum" type="SecondaryTab" active="true" scrollx="-15.215002327091497" scrolly="-315.41490819396495" scale="0.46539846479355473">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="/,s}6T7df7QyOc!UC4-^" type="">lakmus biru</variable>
+      <variable id="JFgTwaGX=:_xB.C6zrXN" type="">lakmus merah</variable>
+      <variable id="wG]}!C)Je1mV^6uLs6nW" type="">vinegar - red</variable>
+      <variable id="$5YnGDGQ?Ne`}7x=+GO1" type="">vinegar - blue</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="-|+_7Qj/8$ryu}[Wjfi7" x="70" y="10">
+      <value name="VALUE">
+        <shadow type="objectList" id="xp18J?s/%k$YO1beU24=">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="lists_create_with" id="[c~rjhz6yI2hZ-Pl3PXT">
+          <mutation items="8"/>
+          <value name="ADD0">
+            <block type="objectList" id="N!zW[y3^!6|5bMSs~9W^">
+              <field name="FIELDNAME">lakmus merah bergerak.001</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="objectList" id="xb_}HsY^*R5MS;f*TD#d">
+              <field name="FIELDNAME">lakmus biru bergerak.001</field>
+            </block>
+          </value>
+          <value name="ADD2">
+            <block type="objectList" id="}djIo]6d=QFRtjguW`Z$">
+              <field name="FIELDNAME">vinegar water - blue litmus</field>
+            </block>
+          </value>
+          <value name="ADD3">
+            <block type="objectList" id="Gbe{#Y]*l4(IibUZ0y-V">
+              <field name="FIELDNAME">vinegar water - red litmus</field>
+            </block>
+          </value>
+          <value name="ADD4">
+            <block type="objectList" id="0SC7+:p?(ppBWt=uX6M6">
+              <field name="FIELDNAME">detergent water - blue litmus</field>
+            </block>
+          </value>
+          <value name="ADD5">
+            <block type="objectList" id="NY/7et9rAFp@vT~|*]%V">
+              <field name="FIELDNAME">detergent water - red litmus</field>
+            </block>
+          </value>
+          <value name="ADD6">
+            <block type="objectList" id=",--hEn,13GYLJC?d`0dd">
+              <field name="FIELDNAME">salt water - blue litmus</field>
+            </block>
+          </value>
+          <value name="ADD7">
+            <block type="objectList" id="Z/AlPsUA%QLQHs[o4`5#">
+              <field name="FIELDNAME">salt water - red litmus</field>
+            </block>
+          </value>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="t$ZvJ~Toi*;3{?DDloty" x="590" y="10">
+      <value name="VALUE">
+        <shadow type="objectList">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="lists_create_with" id="Wq7CVM{BN}|(2.RZ^!yQ">
+          <mutation items="6"/>
+          <value name="ADD0">
+            <block type="objectList" id="Gs-h5.fPktBX4N?DXlt^">
+              <field name="FIELDNAME">hasil - detergent water - blue litmus</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="objectList" id="bWihuH^c/%4bgXUDp6o_">
+              <field name="FIELDNAME">hasil - detergent water - red litmus</field>
+            </block>
+          </value>
+          <value name="ADD2">
+            <block type="objectList" id="H)z@t*sL[OG#`_VQH`|X">
+              <field name="FIELDNAME">hasil - salt water - red litmus</field>
+            </block>
+          </value>
+          <value name="ADD3">
+            <block type="objectList" id="H2-Uk9/qik]Fz9#D,s%U">
+              <field name="FIELDNAME">hasil - vinegar water - blue litmus</field>
+            </block>
+          </value>
+          <value name="ADD4">
+            <block type="objectList" id="qCLw]GlPoN*gvajBi7T0">
+              <field name="FIELDNAME">hasil - vinegar water - blue litmus</field>
+            </block>
+          </value>
+          <value name="ADD5">
+            <block type="objectList" id="8{w}:1WJ8N2b16w8eZW8">
+              <field name="FIELDNAME">hasil - vinegar water - red litmus.001</field>
+            </block>
+          </value>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="@o,W9~D@SS2;rlN1i.vy" x="50" y="250">
+      <field name="VAR" id="JFgTwaGX=:_xB.C6zrXN">lakmus merah</field>
+      <value name="VALUE">
+        <block type="text" id="a~({NCS!zIDdqff?tNWK">
+          <field name="TEXT">not yet</field>
+        </block>
+      </value>
+      <next>
+        <block type="whenClicked" id="9$Jj}cbUQ)u3,xz70_-c">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="])FpRh1+a)n:WRNS5D]!">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="0=UhI4$+BrZuCoaU@{ke">
+              <field name="FIELDNAME">wadah lakmus merah</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="tweenCameraExt" id="o0!tGG_Wu6zct[%n@tI!">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <field name="MOVEMENT_TYPE">LINEAR</field>
+              <value name="POSITION">
+                <block type="objectList" id="Jjoy|%Ah`0gc^@[p2?w7">
+                  <field name="FIELDNAME">lakmus merah p</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="UBftiRGqCzhc_HbaKvs]">
+                  <field name="FIELDNAME">lakmus merah d</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="LGQ~Yb9xGjLSj*}@25mC">
+                  <field name="NUM">2</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="K$)#OW)TKqjVw[A2nH$,">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="9x![Q6ep!*,mr#iJddMZ">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="lists_create_with" id="GP86tj7{8P|eTpaK}WuI">
+                      <mutation items="4"/>
+                      <value name="ADD0">
+                        <block type="animationList" id="4H_8c=}%{D/EdnK;sSYA">
+                          <field name="FIELDNAME">wadah lakmus merah</field>
+                        </block>
+                      </value>
+                      <value name="ADD1">
+                        <block type="animationList" id=":7(J#tj3/7b@H,Y4=siv">
+                          <field name="FIELDNAME">lakmus merah diam</field>
+                        </block>
+                      </value>
+                      <value name="ADD2">
+                        <block type="animationList" id="}Tk)1=%+.2$.Oit64nkT">
+                          <field name="FIELDNAME">merk lakmus merah</field>
+                        </block>
+                      </value>
+                      <value name="ADD3">
+                        <block type="animationList" id="{VXX0wMgn?yrgLEglH,G">
+                          <field name="FIELDNAME">lakmus merah bergerak</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="playAnimationAdv" id="M`+~T~PmOTGD~D]54jg/">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="animationList" id="wOSw,[Xi)WQ9DFZPEe,5">
+                          <field name="FIELDNAME">tutup lakmus merah</field>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="show" id="i}{:H6-3v~7IXj]YNAq;">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="rmvAaUF@Y0BaBY8{/PeK">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="+EQj=gV8l@ejjr!CU61Q">
+                              <field name="FIELDNAME">lakmus merah bergerak.001</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="hide" id="$}%J%[uSibs?lnSw^]LF">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="adGTxJh6C?eorR+xIF-]">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="objectList" id="#yte(`XcbRi?y,/Q9iT;">
+                                  <field name="FIELDNAME">lakmus merah bergerak</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="tweenCameraExt" id="`b@h1=EiqFW])-DOv7:h">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                                  <field name="MOVEMENT_TYPE">LINEAR</field>
+                                  <value name="POSITION">
+                                    <block type="objectList" id="0QMiIAQBwRm9mYf*c?Ni">
+                                      <field name="FIELDNAME">lakmus merah p.001</field>
+                                    </block>
+                                  </value>
+                                  <value name="LOOKAT">
+                                    <block type="objectList" id="?oPA/*|ERPA77/7C4@kg">
+                                      <field name="FIELDNAME">lakmus merah d.001</field>
+                                    </block>
+                                  </value>
+                                  <value name="DURATION">
+                                    <shadow type="math_number" id="mN6x2n8dwc?,Xs%*I7@#">
+                                      <field name="NUM">3</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="playAnimationAdv" id="dqIA8QmCiO$|~CpgKQ?N">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                                      <field name="REVERSED">FALSE</field>
+                                      <field name="LOOP">LoopOnce</field>
+                                      <value name="VALUE">
+                                        <shadow type="animationList">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="animationList" id="VI/eIeh~1V`)1c_X3,Q6">
+                                          <field name="FIELDNAME">lakmus merah bergerak.001</field>
+                                        </block>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="playAnimationAdv" id="Nf{bxHY5^9^F7d!-D53y">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                                          <field name="REVERSED">TRUE</field>
+                                          <field name="LOOP">LoopOnce</field>
+                                          <value name="VALUE">
+                                            <shadow type="animationList" id="i#g*lVu:|jf/y2lOBv^C">
+                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                            </shadow>
+                                            <block type="lists_create_with" id="pV[WLN@Xy^RSes)3Srv_">
+                                              <mutation items="3"/>
+                                              <value name="ADD0">
+                                                <block type="animationList" id="f}71H;A){QQ5d?A8JV^8">
+                                                  <field name="FIELDNAME">wadah lakmus merah</field>
+                                                </block>
+                                              </value>
+                                              <value name="ADD1">
+                                                <block type="animationList" id="@6Q62N.R9zNht3d(dJ6x">
+                                                  <field name="FIELDNAME">lakmus merah diam</field>
+                                                </block>
+                                              </value>
+                                              <value name="ADD2">
+                                                <block type="animationList" id="d?AV=:bx7aVK?}gdHn,2">
+                                                  <field name="FIELDNAME">merk lakmus merah</field>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </value>
+                                          <statement name="DO">
+                                            <block type="show" id="4GSG17e*oU`+Y75X9z6;">
+                                              <value name="VALUE">
+                                                <shadow type="objectList">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="objectList" id="rVv+AY-1{mvY|7zsyDft">
+                                                  <field name="FIELDNAME">vinegar water - red litmus</field>
+                                                </block>
+                                              </value>
+                                              <next>
+                                                <block type="variables_set" id="F`xyA(ee[9=D/Opp*0,+">
+                                                  <field name="VAR" id="JFgTwaGX=:_xB.C6zrXN">lakmus merah</field>
+                                                  <value name="VALUE">
+                                                    <block type="text" id=".w(%f}E[ss$Y!GxJ4]^k">
+                                                      <field name="TEXT">done</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </statement>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="34SX_]^bvo3UoI^fn[U@" x="1330" y="210">
+      <field name="VAR" id="/,s}6T7df7QyOc!UC4-^">lakmus biru</field>
+      <value name="VALUE">
+        <block type="text" id="M.~`AHQd|BHJ=L!4O}#0">
+          <field name="TEXT">not yet</field>
+        </block>
+      </value>
+      <next>
+        <block type="whenClicked" id="9Y}wFa:RJ|GqPy*k]B:C">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="+tS{VUam6kr8;jB+?1H%">
+              <field name="FIELDNAME">wadah lakmus biru </field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="tweenCameraExt" id="m:tOGw|$[4b[A1x]!^/`">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <field name="MOVEMENT_TYPE">LINEAR</field>
+              <value name="POSITION">
+                <block type="objectList" id="jgUp(-DG$^v^2Sd,bOII">
+                  <field name="FIELDNAME">lakmus biru p</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="C.Jr3boj@kmyYb[frEWT">
+                  <field name="FIELDNAME">lakmus biru d</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="rF@]IN1tFIj)k+[6(:6|">
+                  <field name="NUM">2</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="c$cZN5@VUoQTB[3:M{d-">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="lists_create_with" id="DL+Vd5c9t=NL7jkm0]Ad">
+                      <mutation items="4"/>
+                      <value name="ADD0">
+                        <block type="animationList" id="afDxo(e=x0yJGEAkKaNi">
+                          <field name="FIELDNAME">wadah lakmus biru </field>
+                        </block>
+                      </value>
+                      <value name="ADD1">
+                        <block type="animationList" id="_WWY-C?XqtjDKjk]@;u8">
+                          <field name="FIELDNAME">lakmus biru diam</field>
+                        </block>
+                      </value>
+                      <value name="ADD2">
+                        <block type="animationList" id="v_n8xz-5,?x_$sQWq{vQ">
+                          <field name="FIELDNAME">merk lakmus biru</field>
+                        </block>
+                      </value>
+                      <value name="ADD3">
+                        <block type="animationList" id="TB88!pi_OQP3.qLRAce|">
+                          <field name="FIELDNAME">lakmus biru bergerak</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="playAnimationAdv" id="D%u32]e@W-!;;*!Bl7bV">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="animationList" id="bj|Oqp^=)okY,$oe2H3^">
+                          <field name="FIELDNAME">tutup lakmus biru</field>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="show" id="?n]:dRi`WM7yw]C@8ByV">
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="DF4mT{b(^fpQHPY2iuPd">
+                              <field name="FIELDNAME">lakmus biru bergerak.001</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="hide" id="XA.(r]Sj~grYrIB~3I$C">
+                              <value name="VALUE">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="objectList" id="9#IMdK-cBqL_F+PaeEX_">
+                                  <field name="FIELDNAME">lakmus biru bergerak</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="tweenCameraExt" id="ra):^wei`+`d+G7.Q67P">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                                  <field name="MOVEMENT_TYPE">LINEAR</field>
+                                  <value name="POSITION">
+                                    <block type="objectList" id=".^a7/q.XrZYA*09[/1fG">
+                                      <field name="FIELDNAME">lakmus biru p.001</field>
+                                    </block>
+                                  </value>
+                                  <value name="LOOKAT">
+                                    <block type="objectList" id="K)oWd7Xjgxnl/hA|o*|d">
+                                      <field name="FIELDNAME">lakmus biru d.001</field>
+                                    </block>
+                                  </value>
+                                  <value name="DURATION">
+                                    <shadow type="math_number" id="*e4WSlxo!FHnNkVED9jx">
+                                      <field name="NUM">3</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="playAnimationAdv" id="_^8D.Tu,4J`oc=Upez-t">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                                      <field name="REVERSED">FALSE</field>
+                                      <field name="LOOP">LoopOnce</field>
+                                      <value name="VALUE">
+                                        <shadow type="animationList">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="animationList" id="E{aUus.4f^oa$XED*RcC">
+                                          <field name="FIELDNAME">lakmus biru bergerak.001</field>
+                                        </block>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="playAnimationAdv" id="%yOvc8sm8^T[y/^LErsv">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                                          <field name="REVERSED">TRUE</field>
+                                          <field name="LOOP">LoopOnce</field>
+                                          <value name="VALUE">
+                                            <shadow type="animationList">
+                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                            </shadow>
+                                            <block type="lists_create_with" id="`=[RSxelxj:aR16Os%,p">
+                                              <mutation items="3"/>
+                                              <value name="ADD0">
+                                                <block type="animationList" id="%Z[h$pv$Dx{(Sgf2|0=C">
+                                                  <field name="FIELDNAME">wadah lakmus biru </field>
+                                                </block>
+                                              </value>
+                                              <value name="ADD1">
+                                                <block type="animationList" id="FKUt~64aQG6~]~9,gAe6">
+                                                  <field name="FIELDNAME">lakmus biru diam</field>
+                                                </block>
+                                              </value>
+                                              <value name="ADD2">
+                                                <block type="animationList" id="nNYQ!zKdNj+h6vCQlOxE">
+                                                  <field name="FIELDNAME">merk lakmus biru</field>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </value>
+                                          <statement name="DO">
+                                            <block type="show" id="l(!fj2)DfVu4U@3?^pW_">
+                                              <value name="VALUE">
+                                                <shadow type="objectList">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="objectList" id="CxG~X[:1mZIX;qT7!;pJ">
+                                                  <field name="FIELDNAME">vinegar water - blue litmus</field>
+                                                </block>
+                                              </value>
+                                              <next>
+                                                <block type="variables_set" id="B`[QDP_zs39@KX?S3$/S">
+                                                  <field name="VAR" id="/,s}6T7df7QyOc!UC4-^">lakmus biru</field>
+                                                  <value name="VALUE">
+                                                    <block type="text" id="uhH9^kHJx8,Bg@Hm88]x">
+                                                      <field name="TEXT">done</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </statement>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="[T6)^a$l?8v%v)#}H!op" x="70" y="910">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Gng?n|4],X!P$!L$dSZ`">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="VX^J37{%/AjeE|jarYqU">
+          <field name="FIELDNAME">vinegar water - red litmus</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id=")zMvpmW}Qg?2Awqqi{iw">
+          <value name="IF0">
+            <block type="logic_compare" id="B:-_rx(#q%$xj3c=KLK*">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="u9.7C(?oPepNN:|GD2[p">
+                  <field name="VAR" id="JFgTwaGX=:_xB.C6zrXN">lakmus merah</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="5:+9`2$1EsRdR%Mh2|3?">
+                  <field name="TEXT">done</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="tweenCameraExt" id="OLLZkpniU(4^?YvSHgZ]">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <field name="MOVEMENT_TYPE">LINEAR</field>
+              <value name="POSITION">
+                <block type="objectList" id="Z*P(Bko;#NaN7-__|Hjr">
+                  <field name="FIELDNAME">larutan p</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="@TC.--s,Cm*zveIM$QV+">
+                  <field name="FIELDNAME">larutan d</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="Q,~,PX+-+/7RT{N-|kco">
+                  <field name="NUM">3</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="jB;L4*1:nBWzJiJZN?H+">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="-K-4G#3kY-Voa[ZCaN%4">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="animationList" id="Y3mVSJ)L2Df6?F_9;`Dk">
+                      <field name="FIELDNAME">vinegar water - red litmus</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="show" id="H48gYYfu{!S.4zRv`kR0">
+                      <value name="VALUE">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="H5u===.TvX9PA=E9Kwk]">
+                          <field name="FIELDNAME">hasil - vinegar water - red litmus.001</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="hide" id="E(4N9vb85{0M|Jd#TG/.">
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="|X1=U+sWHTh[[L,|,}lw">
+                              <field name="FIELDNAME">vinegar water - red litmus</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="variables_set" id="0XdqK6nQlbmP+1dl$i`G">
+                              <field name="VAR" id="wG]}!C)Je1mV^6uLs6nW">vinegar - red</field>
+                              <value name="VALUE">
+                                <block type="text" id="Ryngkw^`-rD+=![,.e%8">
+                                  <field name="TEXT">done</field>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="gmdGfydk+]DyQ/.6iK(z" x="1210" y="870">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="K^~,o%ANPK(!fFg`2ED4">
+          <field name="FIELDNAME">vinegar water - blue litmus</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="@%F/zjE{C;xR*A#azjJe">
+          <value name="IF0">
+            <block type="logic_compare" id="W50e9+%;!zbC$B!+-_M@">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="[^a}19(J8go(r5PNct!P">
+                  <field name="VAR" id="/,s}6T7df7QyOc!UC4-^">lakmus biru</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id=",k{4#o+J/rEA`rAJwfUs">
+                  <field name="TEXT">done</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="tweenCameraExt" id="aKkJ{x4@@UiMLf@onW2@">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <field name="MOVEMENT_TYPE">LINEAR</field>
+              <value name="POSITION">
+                <block type="objectList" id="!7OZQ]7.8P#pvq)B*FHp">
+                  <field name="FIELDNAME">larutan p</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="`|v?9sq2U836obQ!X{DL">
+                  <field name="FIELDNAME">larutan d</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="p|%wX$ubKIL],eTuMTQW">
+                  <field name="NUM">3</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="g_|)-2S1UrW,y:Y_k}~.">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="animationList" id="FKs-MS%2rI{sDJ)F/~63">
+                      <field name="FIELDNAME">vinegar water - red litmus</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="show" id="B21rJWv3pmQwffAIO9lG">
+                      <value name="VALUE">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="?}L!B#G`S/h4y`yE1#MY">
+                          <field name="FIELDNAME">hasil - vinegar water - blue litmus</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="hide" id="~D{Qc;D,S#+!Vame5c%A">
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="@4l?}`MjQzUnJjW]*lBV">
+                              <field name="FIELDNAME">vinegar water - blue litmus</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="variables_set" id="7h?HHsU`kwy97));xhS_">
+                              <field name="VAR" id="$5YnGDGQ?Ne`}7x=+GO1">vinegar - blue</field>
+                              <value name="VALUE">
+                                <block type="text" id="4QYU)[}[!KUq})I=Zr;W">
+                                  <field name="TEXT">done</field>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="]se}vYOB{@l(lj,_:63Y" x="70" y="1210">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="+7N1QjU:w-PgVJQpE=M!">
+          <field name="FIELDNAME">vinegar water - red litmus</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="QWc[#T5(ijU*}WaTo=?e">
+          <value name="IF0">
+            <block type="logic_compare" id="+Dt,_JVaNt+fzJ(u[YoQ">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="bxbJLJ2w%Bv2CY#;b`nq">
+                  <field name="VAR" id="wG]}!C)Je1mV^6uLs6nW">vinegar - red</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="[_Z#CF3k20v:,T0x^p%5">
+                  <field name="TEXT">done</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="tweenCameraExt" id="^ZZt{S:oM!sm_H4]foP~">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <field name="MOVEMENT_TYPE">LINEAR</field>
+              <value name="POSITION">
+                <block type="objectList" id="fRABqBfu7NfF{b/Y^_q}">
+                  <field name="FIELDNAME">larutan p.001</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="7!S$S+s|.@j9V8TI~gi@">
+                  <field name="FIELDNAME">larutan d.001</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="+dyfVdceEym?BB!f*:Lo">
+                  <field name="NUM">3</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="(-S^N*ccJ??2)Le6I-mM">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="animationList" id="(_A_~{S]6EG09d-nnKLo">
+                      <field name="FIELDNAME">hasil - vinegar water - red litmus.001</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="show" id="=qPg*k]NUw]#7[rN=f`D">
+                      <value name="VALUE">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="}Q^4Pm+OBljVI!QQ5`;]">
+                          <field name="FIELDNAME">detergent water - red litmus</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setTimeout" id="E_JqTXs=4J=UsG,=pQM}">
+                          <value name="VALUE">
+                            <shadow type="math_number" id="tlCCOpzZZ~)+;J%`Q9#s">
+                              <field name="NUM">4</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="tweenCameraExt" id="94(2-o7}G@1;y3xnY/T4">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                              <field name="MOVEMENT_TYPE">LINEAR</field>
+                              <value name="POSITION">
+                                <block type="objectList" id="vT+x;*}|gE}uNyWmllfl">
+                                  <field name="FIELDNAME">lakmus biru p</field>
+                                </block>
+                              </value>
+                              <value name="LOOKAT">
+                                <block type="objectList" id="cISB-^Qhcuy7k#l,f_Bf">
+                                  <field name="FIELDNAME">lakmus biru d</field>
+                                </block>
+                              </value>
+                              <value name="DURATION">
+                                <shadow type="math_number" id="$,0?JP-,p;-s2ea8!2=4">
+                                  <field name="NUM">2</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </statement>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="Mwrd-(UON`]QUh;4}8x1" x="1210" y="1190">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="gfjwtYD@r8ZX[L$X+1.M">
+          <field name="FIELDNAME">vinegar water - red litmus</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="1?OIkv#u,$(I=U.,PP{b">
+          <value name="IF0">
+            <block type="logic_compare" id="*Pc.%.T.(-9J:J!FR]8}">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="pWu;%P3_9Vb}b)_HBa)v">
+                  <field name="VAR" id="$5YnGDGQ?Ne`}7x=+GO1">vinegar - blue</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="+p[Xsu.rkl|D,E@P0-{{">
+                  <field name="TEXT">done</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="tweenCameraExt" id="!jTRlM@2bVYmk@K6/x0j">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <field name="MOVEMENT_TYPE">LINEAR</field>
+              <value name="POSITION">
+                <block type="objectList" id="S`_Nw`574_T^LtCNKFU[">
+                  <field name="FIELDNAME">larutan p.001</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="akyT{FRW.[C|5G`8aW!5">
+                  <field name="FIELDNAME">larutan d.001</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="2v:-)8OI^G*%]AZL4ur/">
+                  <field name="NUM">3</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="66E@TEc1_/iL4%YPt8(}">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="animationList" id="0rVwa@f5%^9=.3vkngGN">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="show" id="/{#UXBELrIM`9vWI9yG+">
+                      <value name="VALUE">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="8_l%`],UG$vChe^=sx:J">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setTimeout" id="Z?]x9M-,FoJK[ML(oS.Q">
+                          <value name="VALUE">
+                            <shadow type="math_number" id="!hU_]C-x+.l78bY#r}n/">
+                              <field name="NUM">4</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="tweenCameraExt" id="I@yQtm6IPaz2@NR,MJS}">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                              <field name="MOVEMENT_TYPE">LINEAR</field>
+                              <value name="POSITION">
+                                <block type="objectList" id="$_gJ(8Y/`6@%z1YO{!j.">
+                                  <field name="FIELDNAME">lakmus merah p</field>
+                                </block>
+                              </value>
+                              <value name="LOOKAT">
+                                <block type="objectList" id="+Y5Z*D{MFkeP(~,;sH:)">
+                                  <field name="FIELDNAME">lakmus merah d</field>
+                                </block>
+                              </value>
+                              <value name="DURATION">
+                                <shadow type="math_number" id="A/t+fa%aiok`*!.:%eol">
+                                  <field name="NUM">2</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </statement>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="822.6666259765625" viewport-y="0.6666641235351562" viewport-w="426" viewport-h="288.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
